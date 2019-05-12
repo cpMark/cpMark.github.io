@@ -3,8 +3,13 @@ title: Walker Blog
 SEOTitle: Walker Blog
 header-img: img/home-bg.jpg
 email: cpontheway@gmail.com
-url: "http://114.55.166.167:8090/"              # your host, for absolute URL
+#url: "http://114.55.166.167:8090/"              # your host, for absolute URL
+url: "https://cpmark.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -50,7 +55,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: cpMark
 
 # Netease settings
 netease_comment: false
